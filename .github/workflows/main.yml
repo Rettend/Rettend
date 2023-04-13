@@ -16,6 +16,12 @@ jobs:
         with:
           plugin_languages: yes
           plugin_code: yes
-          plugin_code_languages: js, ts, vue, cs, py, rs
+          plugin_traffic: yes
+          plugin_achievements: yes
+          plugin_achievements_limit: 10
+          plugin_starlists: yes
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_limit_repositories: 0
           config_timezone: Europe/Budapest
           token: ${{ secrets.METRICS_TOKEN }}
