@@ -15,13 +15,9 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           plugin_languages: yes
-          plugin_code: yes
           plugin_reactions: yes
           plugin_traffic: yes
           plugin_achievements: yes
           # plugin_achievements_limit: 10
-          plugin_starlists: yes
-          plugin_starlists_languages: yes
-          plugin_starlists_limit_languages: 8
           config_timezone: Europe/Budapest
           token: ${{ secrets.METRICS_TOKEN }}
